@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flash-yellow {
+  background-color: theme("colors.yellow.500");
+  animation-name: flashYellow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flashYellow {
+  0% {
+    background-color: theme("colors.yellow.500");
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: theme("colors.yellow.500");
+  }
+}
