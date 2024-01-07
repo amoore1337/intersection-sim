@@ -8,13 +8,12 @@ import { Vehicle } from "./vehicle";
 export class Intersection {
   public readonly roads: Record<Face, Road>;
   public readonly grid: Grid = new Grid();
-  public readonly trafficLight: TrafficLight;
+  public readonly trafficLight: TrafficLight = new TrafficLight();
   public readonly laneLength: number;
   private onTick = this.addVehicle.bind(this);
   private currentTickCount: number = 0;
 
   constructor() {
-    this.trafficLight = new TrafficLight();
     this.laneLength = (this.grid.size - 4 * 2) / 2;
     this.roads = {
       [Face.North]: new Road(this, Face.North),

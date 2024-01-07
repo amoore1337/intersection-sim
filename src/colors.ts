@@ -1,6 +1,6 @@
 export const colors = [
   "#FF0000",
-  "#FFFF00",
+  "#FFE629",
   "#00EAFF",
   "#AA00FF",
   "#FF7F00",
@@ -13,4 +13,10 @@ export const colors = [
   "#4F8F23",
   "#EDB9B9",
   "#0040FF",
+  "#58D5BA",
+  "#9A5CD0",
+  "#EC6142",
+  "#46A758",
+  "#323035",
+  "#462100",
 ];
