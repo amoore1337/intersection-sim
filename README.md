@@ -11,8 +11,8 @@ Vehicles move through the intersection a max of one space every tick.
 The intersection is made up of a grid of cells that vehicles may move between, one cell
 per tick. Only one vehicle can occupy a cell at a time. The intersection is composed of
 roads. Each road is composed of lanes. A lan has a direction: 'left', 'straight', or 'right'.
-Per the specifications, the interection has been configured to be four-way with a left, right
-and two straight lanes.
+Vehicles are placed in a lane. Per the specifications, the interection has been configured to
+be four-ways, with a left, right and two straight lanes.
 
 The idea for the overall strategy came from an old video game I used to play, called
 [Screeps](https://screeps.com/). Screeps is a sandbox game for programmers that operates on
