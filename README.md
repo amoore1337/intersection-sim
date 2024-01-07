@@ -32,7 +32,8 @@ vehicles to aviod congesting the intersection.
 
 1. Checkout the codebase and install dependencies (`npm i`).
 2. Build application with `npm run build`.
-3. View in your browser at [http://localhost:4173/](http://localhost:4173/).
+3. Serve application with `npm run preview`.
+4. View in your browser at [http://localhost:4173/](http://localhost:4173/).
 
 ## TODO:
 
@@ -42,6 +43,7 @@ Given more time, I'd look to address a few shortcomings:
   for this is mostly in place, would mostly require refining the conditional logic.
 - Make vehicle decision making smarter. Left and right turning vehicles could be
   smarter/more efficient.
+- Allow vehicles to queue up beyond the spaces available on the grid.
 - Code cleanup / Performance enhancements. There are a number of places where the code
   is intentionally explicit, but a little cumbersome. This could be refactored to be less
   lengthy and more organized. Also could reduce some expensive renders in the UI.
