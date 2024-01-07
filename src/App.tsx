@@ -4,6 +4,7 @@ import { TrafficLight } from "./components/TrafficLight";
 import { Grid } from "./components/Grid";
 import { simulation } from "./models/simulation";
 import { Controls } from "./components/Controls";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 function App() {
   const [intersection, setIntersection] = useState<Intersection>();
@@ -16,6 +17,14 @@ function App() {
           running={!!intersection}
           onStop={() => setIntersection(simulation.getIntersection())}
         />
+        <a
+          className="fixed bottom-2 right-2 text-gray-800 hover:text-sky-600"
+          href="https://github.com/amoore1337/intersection-sim"
+          target="_blank"
+          aria-label="View on GitHub"
+        >
+          <GitHubLogoIcon width={40} height={40} />
+        </a>
       </div>
       <div className="flex-1 flex items-center justify-center">
         <div className="relative inline-block">
