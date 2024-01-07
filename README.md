@@ -28,7 +28,7 @@ vehicles to aviod congesting the intersection.
 
 **Option 1:** View Simulation at https://intersection-sim.moorenet.tech/
 
-**Option 2:**: Run locally using the following instructions:
+**Option 2:** Run locally using the following instructions:
 
 1. Checkout the codebase and install dependencies (`npm i`).
 2. Build application with `npm run build`.
