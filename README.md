@@ -64,10 +64,9 @@ The UI structure is pretty basic:
 
 **Option 2:** Run locally using the following instructions:
 
-1. Checkout the codebase and install dependencies (`npm i`).
-2. Build application with `npm run build`.
-3. Serve application with `npm run preview`.
-4. View in your browser at [http://localhost:4173/](http://localhost:4173/).
+1. Checkout the codebase and make sure Node v18 is installed.
+2. Run the application with `npm run demo`.
+3. View in your browser at [http://localhost:4173/](http://localhost:4173/).
 
 ## TODO:
 
@@ -99,6 +98,6 @@ Given more time, I'd look to address a few shortcomings:
 
 ## Development
 
-1. Checkout the codebase and install dependencies (`npm i`).
+1. Checkout the codebase and install dependencies (`npm i`) with Node v18 installed.
 2. Spin up the dev server with `npm run dev`.
 3. View in your browser at [http://localhost:5173](http://localhost:5173).
